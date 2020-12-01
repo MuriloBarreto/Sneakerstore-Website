@@ -1,2 +1,2 @@
 # Sneakerstore-Website
- Site desenvolvido em PHP, HTML, CSS e JavaScript de uma loja virtual
+ Site de uma loja virtual desenvolvido em PHP, HTML, CSS e JavaScript.
