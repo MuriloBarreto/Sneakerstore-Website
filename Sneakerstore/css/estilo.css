@@ -46,18 +46,16 @@ src: local('Antonio light'), url('font/Antonio-Light.woff') format('woff');
 	clear:both;
 }
 .capa{width:100%;float:left;}
+
 /* parte topo */
 .mn-topo{
 	width: 100%;
-    background: black;
+    background: gray;
     height: 40px;
     float: left;
 }
 
-.contato-topo{
-	color:#FFF;
-	font-size:1em;
-}
+/* parte do usuario */
 .usuario{
 	float:right;
 	padding:5px 0;
@@ -69,18 +67,9 @@ src: local('Antonio light'), url('font/Antonio-Light.woff') format('woff');
 	color:#FFF;
 	}
 
-.contato-topo h1{
-	font-weight:inherit;
-	font-size:11px;
-	float:left;
-	margin-right:30px;
-	text-align:center;
-	padding:10px 0;
-}
-.contato-topo strong{
-	font-weight:bold;
-	font-size:1.1em;
-}
+
+
+/* parte do carrinho no top do cabeçalho */
 
 .carrinho-topo{
 	width:22%;
@@ -93,128 +82,21 @@ src: local('Antonio light'), url('font/Antonio-Light.woff') format('woff');
 	position:relative;
 	z-index:3;
 }
-.carrinho-topo ul{
-	list-style:none;
-}
+
+
 .carrinho-topo li{
 	display:inline-block;
 	font-family:'Antonio regular';
 	font-size:1.1em;
 }
+
+
 .carrinho-topo li a{
-	color: #FFC926;
     padding-right: 10px;
     padding-left: 10px;
 }
 
-.carrinho-topo  ul > li > ul{
-	visibility: hidden;
-	position: absolute;
-	left: 0;
-	right:0;
-	top: 31px;
-	min-height:140px;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	-moz-opacity: 0.00;
-	opacity: 0.00;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha"(Opacity=0);
-	border-top:0 !important;
-	border:solid 1px black;
-	z-index:1;
-}
 
-.carrinho-topo  ul > li:hover > ul{
-	-moz-opacity: 1;
-	opacity: 1;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=100);
-	visibility: visible;
-	text-align: left;
-	background:#fff;
-	-webkit-border-radius: 0 0 3px 3px;
-	-moz-border-radius: 0 0 3px 3px;
-	border-radius: 0 0 3px 3px;		
-}
-.carrinho-topo .prod-carrinho{
-	width:100%;
-	float:left;	
-}
-.carrinho-topo .prod-carrinho figure{
-	width:100%;
-	float:left;	
-	padding:10px;
-	font-family:raleway;
-	border-bottom:solid 1px #ccc;
-	position:relative;
-	min-height: 85px;
-}
-.carrinho-topo .prod-carrinho figure:last-child{
-	border-bottom:0!important;
-}
-.carrinho-topo .prod-carrinho figure a{
-	color:#444;
-	padding:5px 10px;
-	font-size:11.9px;
-	background: #FFA100;
-    background: linear-gradient(#FFA100 20%, #FF8000 50%);
-		background: -webkit-linear-gradient(#FFA100 20%, #FF8000 50%);
-			background: -moz-linear-gradient(#FFA100 20%, #FF8000 50%);
-				background: -o-linear-gradient(#FFA100 20%, #FF8000 50%);
-					background: -ms-linear-gradient(#FFA100 20%, #FF8000 50%);
-	border-radius:3px;
-		-webkit-border-radius:3px;
-			-moz-border-radius:3px;
-				-o-border-radius:3px;
-					-ms-border-radius:3px;
-	float:right;
-	position:absolute;
-	bottom:10px;
-	right:10px;
-	font-family:'Antonio regular';
-	color:#000;
-	
-}
-
-.carrinho-topo .prod-carrinho figure span{
-	font-family: raleway;
-    font-size: 0.7em;
-    display: inline;
-    float: right;
-    width: 63%;
-    line-height: 1.3em;
-}
-.carrinho-topo .prod-carrinho figure strong{
-	font-family:arial!important;
-	font-size:1em
-}
-.carrinho-topo .prod-carrinho figure img{
-	width:30%;
-	float:left;	
-	margin-right:5px;
-}
-.carrinho-topo .prod-carrinho .comprar{
-	width:100%;
-  padding: 8px 10px;
-  background: #FFA100;
-  background: linear-gradient(#FFA100 20%, #FF8000 50%);
-  background: -webkit-linear-gradient(#FFA100 20%, #FF8000 50%);
-  background: -moz-linear-gradient(#FFA100 20%, #FF8000 50%);
-  background: -o-linear-gradient(#FFA100 20%, #FF8000 50%);
-  background: -ms-linear-gradient(#FFA100 20%, #FF8000 50%);
-
-  color: #111;
-  font-size: 1em;
-  height: auto;
-  font-family: 'Antonio regular';
-  text-align: center;
-  float: left;
-  display: inline-block;
-  margin:0;
-  cursor:pointer;
-  text-transform:uppercase;
-  cursor:pointer;
-}
 
 .carrinho-topo .ico-carrinho{
 	background:url(../imagens/ico-carrinho-topo.png) no-repeat;
@@ -282,13 +164,11 @@ src: local('Antonio light'), url('font/Antonio-Light.woff') format('woff');
 	background: -o-linear-gradient(#E8E8E8, #DDDDDD);
 	background: -ms-linear-gradient(#E8E8E8, #DDDDDD);
 	padding-top:5px;
-	padding-bottom:5px;
-	height:72px;
+	padding-bottom:7px;
+	height:75px;
 	border-bottom:solid 1px #CCCCCC;
 }
-.navmenu ul{
-	list-style:none;
-}
+
 .navmenu ul li{
 	float:left;
 	width:14.2%;
@@ -297,7 +177,7 @@ src: local('Antonio light'), url('font/Antonio-Light.woff') format('woff');
 	border-left:solid 1px #ccc;
 	text-align:center;
 }
-.navmenu ul li:last-child{border-right:solid 1px #ccc; float:right}
+
 .navmenu ul li a{
 	display:block;
 	text-decoration:none;
@@ -377,48 +257,7 @@ src: local('Antonio light'), url('font/Antonio-Light.woff') format('woff');
 	text-align:center;
 	margin-bottom:8px
 }
-.navmenu .ico-info{
-	background:url(../imagens/ico-mb.png) no-repeat center;
-	display:block;
-	height:22px;
-	margin-bottom:3px
-}
-.navmenu .ico-smt{
-	background:url(../imagens/ico-smt.png) no-repeat center;
-	display:block;
-	height:22px;
-	margin-bottom:3px
-}
-.navmenu .ico-tab{
-	background:url(../imagens/ico-tab.png) no-repeat center;
-	display:block;
-	height:22px;
-	margin-bottom:3px
-}
-.navmenu .ico-not{
-	background:url(../imagens/ico-not.png) no-repeat center;
-	display:block;
-	height:22px;
-	margin-bottom:3px
-}
-.navmenu .ico-des{
-	background:url(../imagens/ico-des.png) no-repeat center;
-	display:block;
-	height:22px;
-	margin-bottom:3px
-}
-.navmenu .ico-ace{
-	background:url(../imagens/ico-ace.png) no-repeat center;
-	display:block;
-	height:22px;
-	margin-bottom:3px
-}
-.navmenu .ico-out{
-	background:url(../imagens/ico-out.png) no-repeat center;
-	display:block;
-	height:22px;
-	margin-bottom:3px;
-}
+
 
 .navmenu .mobmenu{
     display: none;
@@ -429,16 +268,7 @@ src: local('Antonio light'), url('font/Antonio-Light.woff') format('woff');
 
 /* banner slideshow */
 
-.cx-banner-topo{
-	width:100%;
-	background:#EEE;
-	min-height:270px;
-	height:100%;
-	float:left;
-	display:inline-block;
-	margin-bottom:20px;
 
-}
 .base-bn{
 	width:758px;
 	margin:0 auto;
@@ -449,7 +279,7 @@ src: local('Antonio light'), url('font/Antonio-Light.woff') format('woff');
 	max-width:100%;
 }
 .slide{
-	padding-top:70px; 
+	padding-top:100px; 
 	position:relative;
 	}
 
@@ -570,117 +400,7 @@ margin-top:50px;
 }
 /* iframe */
 
-.js-video {
-  height: 0;
-  padding-top: 0;
-  padding-bottom: 55.5%;
-  margin-bottom: 10px;
-  position: relative;
-  overflow: hidden;
-}
 
-.js-video embed, .js-video iframe, .js-video object, .js-video video {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
-
-.lado-dir.lojacompleta .base-lojacompleta .caixa-video{
-		width:100%;
-		float:left;
-		padding:10px 10%;
-}
-.lado-dir.lojacompleta .base-lojacompleta .cx-opcoes{
-	width: 100%;
-    margin: 0 0%;
-    background: rgba(205,205,215,0.1);
-    border: solid 1px #DDD;
-    padding: 20px 0;
-    float: left;
-}
-.lado-dir.lojacompleta .base-lojacompleta .cx-opcoes .conteudo{
-		width:100%;
-		float:left;
-		padding:0px 20%;
-		margin:0 auto;
-}
-.lado-dir.lojacompleta .base-lojacompleta .cx-opcoes .conteudo input{
-		width:100%;
-		float:left;
-		padding:10px;
-		border:solid 1px #ccc;
-		margin-bottom:10px;	
-}
-.lado-dir.lojacompleta .base-lojacompleta .cx-opcoes .conteudo span{
-		display:block;
-		font-size:0.9em;
-		padding-bottom:5px;
-}
-.lado-dir.lojacompleta .base-lojacompleta .cx-opcoes .conteudo h3{
-		    display: block;
-			font-size: 1.8em;
-			padding-top: 10px;
-			padding-bottom: 20px;
-			text-align: center;
-			text-transform: uppercase;
-			font-family: antonio;
-}
-.lado-dir.lojacompleta .base-lojacompleta .cx-opcoes .conteudo h2{
-		display:block;
-		font-size:2em;
-		padding-top:10px;
-		padding-bottom:20px;
-		text-align:left;
-		text-transform:uppercase;
-		font-family:arial;
-		color:#660066;
-}
-.lado-dir.lojacompleta .base-lojacompleta .cx-opcoes .conteudo .captcha{
-		width:100%;
-		float:left;
-}
-.lado-dir.lojacompleta .base-lojacompleta .cx-opcoes .conteudo .captcha img{
-		width:20%;
-		float:left;
-}
-.lado-dir.lojacompleta .base-lojacompleta .cx-opcoes .conteudo .captcha input{
-		width:75%;
-		float:right;
-		height:100%;
-}
-.lado-dir.lojacompleta .base-lojacompleta .cx-opcoes .conteudo .bandeiras {
-    background: url(../imagens/bandeiras2.png) no-repeat;
-    background-size: 35%;
-    width: 100%;
-    height: 32px;
-    display: block;
-    margin-top: 0px;
-}
-
-.lado-dir.lojacompleta .base-lojacompleta .cx-opcoes .conteudo .comprar {
-    display: block;
-    background: #FEB827;
-    background: linear-gradient(#FDBE3A 39%, #FF9A00 50%);
-    background: -webkit-linear-gradient(#FDBE3A 39%, #FF9A00 50%);
-    background: -moz-linear-gradient(#FDBE3A 39%, #FF9A00 50%);
-    background: -o-linear-gradient(#FDBE3A 39%, #FF9A00 50%);
-    background: -ms-linear-gradient(#FDBE3A 39%, #FF9A00 50%);
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -o-border-radius: 3px;
-    -ms-border-radius: 3px;
-    float: left;
-    font-size: 1.4em;
-    font-family: 'Antonio Regular';
-    text-align: center;
-    padding: 10px;
-    border: solid 1px #FEB827;
-    color: #111;
-    cursor: pointer;
-}
 
 
 
